@@ -18,6 +18,18 @@ class AssignOp{
         System.out.println(result3);
         System.out.println(result4);
         System.out.println(result5);
+
+        result1 += 1;
+        result2++;
+        result3--;
+
+        System.out.println("Arithematic operator: " +result1);
+        System.out.println("Increemnt : " +result2);
+        System.out.println("Decrement : " +result3);
+
+
+
+
     }
 }
 
