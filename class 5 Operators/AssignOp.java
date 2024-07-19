@@ -1,5 +1,3 @@
-import javax.naming.spi.DirStateFactory.Result;
-
 class AssignOp{
 
     public static void main(String[] args) {
@@ -27,8 +25,12 @@ class AssignOp{
         System.out.println("Increemnt : " +result2);
         System.out.println("Decrement : " +result3);
 
-
-
+       int ap = 3;
+       int r =ap++;  //first it will print the value and  op=3
+       int r1 = ++ap;    //it will incremnt  first and print after op=4
+       
+       System.out.println("Post Incremenet:"+r);
+       System.out.println("Pre-increment :" +r1);
 
     }
 }
